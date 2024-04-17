@@ -24,9 +24,13 @@ function page4Animation() {
 
 function swiperAnimation() {
     var swiper = new Swiper(".mySwiper", {
-        slidesPerView: "auto",
-        centeredSlides: true,
+        slidesPerView: 3,
+       // centeredSlides: true,
         spaceBetween: 100,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
     });
 }
 function menuAnimation() {

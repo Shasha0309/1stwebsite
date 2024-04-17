@@ -392,6 +392,9 @@ nav h3 {
     width: 30%;
     border-left: 1px solid #aeadad;
     padding: 0 2vw;
+    /*display: flex;
+      justify-content: center;
+      align-items: center;*/
 }
 
 #page5 {
@@ -402,7 +405,7 @@ nav h3 {
 
 #footer {
     position: fixed;
-    height: 105vh;
+    height: 180vh;
     width: 100%;
     background-color: #000;
     color: #fff;
@@ -412,22 +415,25 @@ nav h3 {
     /* align-items: flex-end; */
     justify-content: flex-end;
     flex-direction: column;
-    padding: 1vw 3vw;
+    padding: 0.2vw 3vw;
 }
 
 #footer h1 {
     font-size: 23vw;
+    margin-top: 10px;
+    
 }
 
 #footer-div {
-    height: 20vh;
+    height: 30vh;
     width: 100%;
-    background-color: red;
+    background-color: #FE320A;
+    filter:blur(10px);
 }
 
 #footer-bottom {
     border-top: 1px solid #dadada;
-    height: 10vh;
+    height: 11vh;
     width: 100%;
 }
 
@@ -439,15 +445,51 @@ nav h3 {
     z-index: 99;
     top: -100%;
     transition: all ease 0.5s;
+    position: absolute;
+    animation-name: movinganime2;
+animation-duration: 5s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+
 }
 
 #full-div1 {
     height: 50%;
     width: 100%;
-    background-color: #EFEAE3;
+    background: linear-gradien(#FE320A);
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    margin-top: 5px;
+    position: absolute;
+    animation-name: movinganime1;
+animation-duration: 5s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-direction: alternate;
 
+}
+
+
+
+@keyframes movinganime1 {
+from {
+    transform: translate(55%, -3%);
+}
+
+to {
+    transform: translate(0%, 10%);
+}
+}
+
+@keyframes movinganime2 {
+from {
+    transform: translate(5%, -5%);
+}
+
+to {
+    transform: translate(-20%, 30%);
+}
 }
 
 @media (max-width:600px) {
