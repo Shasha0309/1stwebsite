@@ -1,3 +1,20 @@
+@font-face {
+    font-family: neu;
+    src: url(./NeueHaasDisplayMediu.ttf);
+}
+
+@font-face {
+    font-family: neu;
+    font-weight: 100;
+    src: url(./NeueHaasDisplayLight.ttf);
+}
+
+@font-face {
+    font-family: neu;
+    font-weight: 200;
+    src: url(./NeueHaasDisplayRoman.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -110,8 +127,8 @@ nav h3 {
 
 #page1 video {
     position: relative;
-    border-radius: 30px;
-    margin-top: 4vw;
+    border-radius: 25px;
+    margin-top: 3.4vw;
     width: 100%;
 }
 
@@ -209,7 +226,7 @@ nav h3 {
 }
 
 #moving-text h1 {
-    font-size: 9vw;
+    font-size: 10vw;
     /* background-color: lightblue; */
     display: inline-block;
 }
@@ -246,9 +263,10 @@ nav h3 {
 }
 
 #page2-bottom h1 {
+    margin-top: 10.5vw;
     font-size: 4vw;
     width: 60%;
-    line-height: 4vw;
+    line-height: 4.5vw;
 }
 
 #bottom-part2 {
@@ -259,12 +277,13 @@ nav h3 {
 #bottom-part2 img {
     width: 100%;
     border-radius: 15px;
+    margin-top: 2vw;
 }
 
 #bottom-part2 p {
     font-weight: 200;
-    margin-top: 2vw;
-    font-size: 1vw;
+    margin-top: 2.5vw;
+    font-size: 1.3vw;
 }
 
 #page2 #gooey {
