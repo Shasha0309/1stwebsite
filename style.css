@@ -389,7 +389,7 @@ nav h3 {
 }
 
 .swiper-slide {
-    width: 30%;
+    width: 20%;
     border-left: 1px solid #aeadad;
     padding: 0 2vw;
     /*display: flex;
@@ -433,7 +433,7 @@ nav h3 {
 }
 
 .footer-top-left {
-    padding: 3vw 0;
+    padding: 7vw 0;
     font-family: neu;
 }
 
@@ -444,7 +444,7 @@ nav h3 {
     width: 30%;
     font-weight: 500;
     font-family: neu;
-    padding: 3vw 0;
+    padding: 7vw 0;
 }
 
 .footer-input {
