@@ -137,7 +137,7 @@ nav h3 {
     width: 46vw;
     height: 36vw;
     right: 0;
-    top: 65vh;
+    top: 75vh;
 }
 
 #hero-1 {
@@ -400,42 +400,160 @@ nav h3 {
 #page5 {
     height: 100vh;
     width: 100%;
-    /* background-color: #EFEAE3; */
 }
 
-#footer {
+
+.section-6 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.footer {
+    overflow: hidden;
+    position: relative;
     position: fixed;
-    height: 180vh;
-    width: 100%;
-    background-color: #000;
-    color: #fff;
-    z-index: 9;
     bottom: 0;
+    z-index: 7;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: black;
+}
+
+.footer-top {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    font-size: 2vw;
+    height: 35%;
     display: flex;
-    /* align-items: flex-end; */
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-top-left {
+    padding: 2vw 0;
+    font-family: neu;
+}
+
+.footer-top-right {
+    display: flex;
     flex-direction: column;
-    padding: 0.2vw 3vw;
+    gap: 20px;
+    width: 30%;
+    font-weight: 500;
+    font-family: neu;
+    padding: 2vw 0;
 }
 
-#footer h1 {
-    font-size: 23vw;
-    margin-top: 10px;
-    
+.footer-input {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    border-bottom: 1px solid #b5b5b59d;
 }
 
-#footer-div {
-    height: 30vh;
+.footer-input input {
+    color: white;
+    font-size: 1.5vw;
+    width: 90%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.footer-input input::placeholder {
+    color: #d1cfcfbe;
+}
+
+.footer-mid {
+    font-family: neu;
+    font-size: 11vw;
+    height: 50%;
+    display: flex;
     width: 100%;
-    background-color: #FE320A;
-    filter:blur(10px);
+    justify-content: center;
+    align-items: end;
 }
 
-#footer-bottom {
-    border-top: 1px solid #dadada;
-    height: 11vh;
-    width: 100%;
+.footer-mid h1 {
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 2px solid #504A45;
 }
+
+.footer-bottom {
+    font-size: 1rem;
+    font-family: neu;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.animation-div6 {
+    filter: blur(40px);
+    position: absolute;
+    left: 0;
+    top: -4%;
+    width: 60%;
+    height: 500px;
+    border-bottom-right-radius: 50%;
+    background-color: orangered;
+    animation: animation-div6 8s ease-in-out infinite;
+}
+
+.animation-div7 {
+    position: absolute;
+    width: 30%;
+    left: -10%;
+    height: 35%;
+    background-color: orangered;
+    filter: blur(40px);
+    transform: rotate(-45deg);
+    animation: animation-div6 8s ease-in-out infinite;
+
+}
+
+.animation-div8 {
+    filter: blur(40px);
+    position: absolute;
+    right: 0;
+    top: -4%;
+    width: 500px;
+    height: 500px;
+    border-bottom-left-radius: 50%;
+    background-color: orangered;
+    animation: animation-div6 8s ease-in-out infinite;
+    animation-delay: 4s;
+}
+
+.animation-div9 {
+    position: absolute;
+    width: 300px;
+    right: -10%;
+    height: 300px;
+    background-color: orangered;
+    filter: blur(40px);
+    transform: rotate(45deg);
+    animation: animation-div6 8s ease-in-out infinite;
+    animation-delay: 4s;
+}
+
+@keyframes animation-div6 {
+    0% {
+        height: 35%;
+    }
+
+    50% {
+        height: 25%;
+    }
+    100% {
+        height: 35%;
+    }
+}
+
 
 #full-scr {
     height: 100vh;
@@ -445,52 +563,17 @@ nav h3 {
     z-index: 99;
     top: -100%;
     transition: all ease 0.5s;
-    position: absolute;
-    animation-name: movinganime2;
-animation-duration: 5s;
-animation-timing-function: linear;
-animation-iteration-count: infinite;
-animation-direction: alternate;
-
 }
 
 #full-div1 {
     height: 50%;
     width: 100%;
     background: linear-gradien(#FE320A);
+    border-radius: 30%;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    margin-top: 5px;
-    position: absolute;
-    animation-name: movinganime1;
-animation-duration: 5s;
-animation-timing-function: linear;
-animation-iteration-count: infinite;
-animation-direction: alternate;
-
 }
 
-
-
-@keyframes movinganime1 {
-from {
-    transform: translate(55%, -3%);
-}
-
-to {
-    transform: translate(0%, 10%);
-}
-}
-
-@keyframes movinganime2 {
-from {
-    transform: translate(5%, -5%);
-}
-
-to {
-    transform: translate(-20%, 30%);
-}
-}
 
 @media (max-width:600px) {
 
