@@ -353,7 +353,7 @@ nav h3 {
     position: absolute;
     left: 0;
     top: -100%;
-    transition: all ease 0.25s;
+    transition: all ease 0.15s;
 }
 
 .elem:hover .overlay {
@@ -389,7 +389,7 @@ nav h3 {
 }
 
 .swiper-slide {
-    width: 20%;
+    width: 30%;
     border-left: 1px solid #aeadad;
     padding: 0 2vw;
     /*display: flex;
@@ -416,7 +416,7 @@ nav h3 {
     bottom: 0;
     z-index: 7;
     width: 100%;
-    height: 100%;
+    height: 90%;
     color: white;
     background-color: black;
 }
