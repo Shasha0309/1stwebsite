@@ -1,7 +1,3 @@
-<img src="./resources/github_cover.png" width="100%">
-
-# Alloc8 💸 - Master Your Budget with Ease
-
 [<img src="./resources/github_icon.png" width="50px" alt="github-icon">](https://harshilshrma.github.io/alloc8/)<em>&nbsp; (Tap on this image to view the project)</em></span>
 
 # Overview
