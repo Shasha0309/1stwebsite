@@ -1,8 +1,8 @@
-[<img src="./resources/github_icon.png" width="50px" alt="github-icon">](https://shasha0309.github.io/1stwebsite/)<em>&nbsp; (Tap on this image to view the project)</em></span>
+[<img src="./noomoLogo2.png" width="50px" alt="github-icon">](https://shasha0309.github.io/1stwebsite/)<em>&nbsp; (Tap on this image to view the project)</em></span>
 
 # Overview
 
-Welcome to **NOOMO+AGENCY** – a creative and interactive branding Agency Website. This project was originally based on an existing branding ageny website, but I have made several enhancements and modifications to get it up and running more smoothly and more descriptive.
+Welcome to **NOOMO_AGENCY** – a creative and interactive branding Agency Website. This project was originally based on an existing branding ageny website, but I have made several enhancements and modifications to get it up and running more smoothly and more descriptive.
 
 <br>
 
